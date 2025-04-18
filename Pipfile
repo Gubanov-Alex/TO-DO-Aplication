@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+django_rest_framework = "*"
+
+
+[dev-packages]
+djangorestframework-types = "*"
+django_types = "*"
+
+[requires]
+python_version = "3.12.3"
